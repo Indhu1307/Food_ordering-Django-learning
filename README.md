@@ -113,6 +113,43 @@ Open your browser and visit:
 
 `http://127.0.0.1:8000/foods/`
 
+## 🔐 Create Django Superuser
+
+To access the Django Admin Panel, create a superuser account.
+
+### 1. Run the following command
+
+```bash
+python manage.py createsuperuser
+```
+
+### 2. Enter admin details
+
+```text
+Username: admin
+Email address: admin@example.com
+Password: Enter your password
+Password (again): Confirm your password
+```
+
+### 3. Start the development server
+
+```bash
+python manage.py runserver
+```
+
+### 4. Access Django Admin Panel
+
+Open the following URL in your browser:
+
+```text
+http://127.0.0.1:8000/admin/
+```
+
+Login using your superuser username and password.
+
+**Note:** Never share or upload your admin password to GitHub.
+
 ## 🎯 Project Objective
 
 The main objective of this project is to develop a simple food ordering application using Django and understand real-world web application development concepts.
